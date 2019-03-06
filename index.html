@@ -4,6 +4,23 @@
         <title> 
             My first HTML page
         </title>
+       <style>
+            .pets {
+                background-color:black;
+                color: lightskyblue; 
+                text-align:center;
+            }
+           
+           #pets {
+                background-color: crimson;
+                color:darkslateblue;
+           }
+           
+           #dogs {
+               background-color:aqua;
+               color:saddlebrown;
+           }
+       </style>
     </head>
     <body>
                 <h3>Pets</h3>
@@ -14,7 +31,7 @@
                 <time>5:41</time>
             </header>
               <article style="backgound-color:rgb(13,108,132)">
-                <p style="color:rgba(127,0,0,0.5)"> 
+                <p id="dogs"> 
                     It is a pretty, moderately sized dog that looks like a miniature foxhound.It is one of the most
                 popular breed in U.S. Beagles have broader head and short square muzzle. This breed stands at a
                  height between 14-16 inches <br>and weighs up to 11 kg. Their eyes are large and ears are has long
@@ -30,12 +47,12 @@
                 <h1 style="color:rgba(75,78,15,0.8);"> 
                     My favorite pet is a cat. They're very soft and they love to cuddle. 
                 </h1>
-                <p>
+                <p class="pets">
                     Though most people believe that dogs are a man's best   friend, others believe that <strong>cats</strong> are a   man's best friend.
                 </p>
                 </article>
             <section style="background-color:(141,203,221)">
-                <h4>
+                <h4 id="food">
                     Food for pets
                 </h4>
                 <ol>
@@ -43,7 +60,7 @@
                     <li>toys</li>
                     <li>grass</li>
                 </ol>
-                <h5>
+                <h5 id="pets">
                     why I like my pets
                 </h5>
                 <ul>
@@ -68,9 +85,9 @@
            </article>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/rNSnfXl1ZjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          <footer>
-             <p stylr>Created by Willow</p>
+             <p class="pets">Created by Willow</p>
              <a href="#" id="72" title="hello"> Contact us</a>
-             <p>YouTube chanel: Funny Pet Videos</p>
+             <p class="pets">YouTube chanel: Funny Pet Videos</p>
          </footer>
         <br>
         <hr>
