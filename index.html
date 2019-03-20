@@ -25,6 +25,12 @@
                padding:15px;
                margin:5px;
                height:90px;
+               width:90px;
+               -webkit-transition: width 5s; 
+               transition: width 5s;
+           }
+           #dogimg:hover{
+               width:1px
            }
            td {
                border:5px dashed darkred;
@@ -36,6 +42,12 @@
            }
            ul li {
                background-color:indianred;
+           }
+           #contact:hover{
+               color:wheat;
+           }
+           h1:first-letter{
+               font-family:sans-serif;
            }
        </style>
     </head>
@@ -98,12 +110,12 @@
                         <td>husky</td>
                    </tr>
                 </table>
-                <img class="Animal" src="dog.jpg" id="dogimg" >
+                <img class="Animal" src="dog.jpg" id="dogimg">
            </article>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/rNSnfXl1ZjU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          <footer>
              <p class="pets">Created by Willow</p>
-             <a href="#" id="72" title="hello"> Contact us</a>
+             <a href="#" id="contact" title="hello"> Contact us</a>
              <p class="pets">YouTube chanel: Funny Pet Videos</p>
          </footer>
         <br>
